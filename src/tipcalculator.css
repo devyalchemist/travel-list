@@ -1,0 +1,56 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	list-style: none;
+	font-family: poppins;
+}
+body {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.form-container {
+	flex: 1 1 800px;
+	min-width: 500px;
+	padding: 50px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 30px;
+}
+.field {
+	display: flex;
+	justify-content: space-between;
+}
+/* .field select option,
+.field select  */
+
+.field input {
+	padding: 8px 20px;
+	background-color: rgba(210, 210, 210, 0.378);
+	width: 100px;
+	border-radius: 20px;
+	outline: none;
+}
+/* select {
+	width: 120px;
+} */
+select {
+	padding: 8px 20px;
+	background-color: rgba(210, 210, 210, 0.378);
+	width: 140px;
+	border-radius: 20px;
+	outline: none;
+}
+button {
+	display: block;
+	margin: auto;
+	margin: 20px auto;
+	padding: 12px 20px;
+	background-color: rosybrown;
+	color: white;
+}
